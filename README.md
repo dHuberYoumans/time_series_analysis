@@ -4,8 +4,8 @@ This project serves as an exercise in time series analysis.
 
 As an example, we will fit several models (usually ARIMA, GARCH) for the prices and returns of Bitcoin, the Euro and Gold (measured against the US Dollar).
 
-A word of caution: in this exercise we are focusing on the practical **implementation** rather than the correct interpretaiton. 
-We do not claim that any results obtained in this exercise are correct form a financial point of view.
+A word of caution: in this exercise we are focusing on the **practical** implementation rather than the mathematical correct interpretaiton. 
+We do not claim that any results obtained in this exercise are correct form the point of view of financcial analysis and hence should not be used for investment strategies without further study.
 
 ## Data
 The data is acquired using the yahoo finance API `yfinance` whose `download()` method directly organizes the data into a pandas DataFrame whose index is already the date (of type datetime).
